@@ -1,7 +1,9 @@
-# SpringBoot3.0-Snapshotのお試し
+# SpringBoot3.0系のお試し
 
-以下を参考にしたもの
+sdk use java 17.0.5-amzn
 
-https://github.com/jdubois/NubesGen-2/commit/76e191324f70df8ef236b0c691fc3ddb81b04e85
+mvn package
 
-https://twitter.com/ankinson/status/1466050348246880261
+java -jar target/springboot30snapshottry-0.0.1-SNAPSHOT.jar
+
+curl localhost:8080/api/v1/book
